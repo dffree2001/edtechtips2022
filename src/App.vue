@@ -1,9 +1,13 @@
 <template>
+  <header>
+    <h1>EdTechTips</h1>
+    <h2>Helping people teach</h2>
+  </header>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
@@ -14,6 +18,11 @@
   text-align: center;
   color: #2c3e50;
 }
+h2 {
+  font-weight: 100;
+  font-size: medium;
+  font-style: italic;
+}
 
 nav {
   padding: 30px;
@@ -23,7 +32,7 @@ nav {
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #1f5285;
     }
   }
 }
