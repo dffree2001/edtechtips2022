@@ -1,7 +1,8 @@
 <template>
   <div class="card">
     <div class="card-header">{{ header }}</div>
-    <div class="card-body">
+    <img src="" alt="" class="card-img-top">
+    <div class="card-body" >
       <p>{{ msg }}</p>
     </div>
   </div>
@@ -20,7 +21,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.card{
-    margin: 0 20px;
-}
+ .card {
+    width: 18rem;
+ }
 </style>
