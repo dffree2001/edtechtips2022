@@ -1,6 +1,6 @@
 <template>
-  <div class="home container-fluid">
-    <div class="row card-deck" style="display:flex; align-items: stretch;" >
+  <div class="home container">
+    <div class="row" style="display:flex; align-items: stretch;" >
       <div class="col-md-6 my-2"  >
         <card-comp header="Getting Started" :msg1='c1l1' :msg2='c1l2' :msg3='c1l3' :msg4='c1l4' />
       </div>
