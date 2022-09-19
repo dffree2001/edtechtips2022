@@ -1,20 +1,22 @@
 <template>
-  <div class="home container">
+  <div class="home container-fluid">
     <div class="row">
-      <div class="card-deck m-2">
+      <div class="col-md-6">
         <card-comp msg="My message" header="Getting Started" />
-        <card-comp msg="My message" header="Homeschooling" />
+      </div>
+     <div class="col-md-6">
+        <card-comp msg="My message" header="Getting Started" />
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import CardComp from "@/components/CardComp.vue";
+import { defineComponent } from 'vue';
+import CardComp from '@/components/CardComp.vue';
 // @ is an alias to /src
 export default defineComponent({
-  name: "HomeView",
+  name: 'HomeView',
   components: {
     CardComp,
   },

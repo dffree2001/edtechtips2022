@@ -2,7 +2,7 @@
   <div class="container">
     <header>
       <h1>EdTechTips</h1>
-      <h2>Helping people teach</h2>
+      <h2>~helping people teach~</h2>
     </header>
     <nav>
       <router-link to="/">Home</router-link> |

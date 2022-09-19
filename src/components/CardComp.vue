@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card mx-auto mx-1 my-2" style="width: 100%">
     <div class="card-header">{{ header }}</div>
     <img src="" alt="" class="card-img-top">
     <div class="card-body" >
