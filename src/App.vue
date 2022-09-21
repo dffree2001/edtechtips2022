@@ -9,6 +9,9 @@
       <router-link to="/about">About</router-link>
     </nav>
     <router-view />
+    <footer>
+      <p>Need something here.</p>
+    </footer>
   </div>
 </template>
 
@@ -36,6 +39,11 @@ nav {
     &.router-link-exact-active {
       color: #1f5285;
     }
+  }
+}
+footer {
+  p {
+    font-size: .9rem;
   }
 }
 </style>

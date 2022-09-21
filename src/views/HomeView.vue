@@ -5,7 +5,7 @@
         <card-comp header="Getting Started" :msg1='c1l1' :msg2='c1l2' :msg3='c1l3' :msg4='c1l4' />
       </div>
       <div class="col-md-6 my-2" >
-        <card-comp header="Homeschool Help" :msg1='c2l1' :msg2="c2l2" :msg3='c2l3' :msg4='c2l4' />
+        <card-comp header="Homeschool Help" :msg1='c2l1' :msg2='c2l2' :msg3='c2l3' :msg4='c2l4' />
       </div>
     </div>
   </div>
@@ -35,8 +35,4 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.card-deck {
-  flex-row: row wrap;
-  display: flex;
-}
 </style>
