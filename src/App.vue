@@ -42,8 +42,11 @@ nav {
   }
 }
 footer {
+  background: black;
+  margin-top: 5rem;
   p {
     font-size: .9rem;
+    color: white;
   }
 }
 </style>

@@ -31,5 +31,16 @@ export default defineComponent({
 <style scoped>
  .card {
     width: 100%;
+    margin-top: 50px;
  }
+ .card-header {
+      width: 80%;
+      position: relative;
+      top: -41px;
+      margin: auto;
+      background: lightblue;
+    }
+  .card-body {
+    margin: -30px 0 -40px 0;
+  }
 </style>
